@@ -17,7 +17,8 @@ A fun game parodying the drudgery of filling out online forms. This form will pa
 +   Points
 +   Return Player
 
-## 
+## Steps 
+***
 1. To Start the game type in python3 quiz.py in terminal.
 2. Enter Your Name 
 2. Then you will be asked to type the number 10, press enter. 
