@@ -7,7 +7,7 @@ ONLINE FORM: THE GAME                             "CENSUS 2021 EDITION"
 
 ## Overview
 ***
-A fun game parodying the drudgery of filling out online forms. This form will parody the U.S Citizenship Form. The player will answer 20 questions and the more they get right the higher the score. 
+A fun game parodying the drudgery of filling out online forms. This form will parody the U.S Citizenship Form. The player will answer 10 questions and the more they get right the higher the score. 
 
 ## Features
 ***
