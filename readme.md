@@ -19,8 +19,8 @@ A fun game parodying the drudgery of filling out online forms. This form will pa
 
 ## Steps 
 ***
-1. To Start the game type in python3 quiz.py in terminal.
+1. To Start the game type in python3 main.py in terminal.
 2. Enter Your Name 
-2. Then you will be asked to type the number 10, press enter. 
-3. You can answer the questions in lower to upper case T, or F. 
+2. Then you will be asked to type the number 3, press enter. 
+3. You can answer these multiple choice questions by typing a,b, or c. 
 4. Game will automatically end and give you a score. 
