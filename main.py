@@ -24,7 +24,7 @@ question_prompts = [
     "Who said, Luke, I am your father\n(a) Han Solo\n(b) Emperor\n(c) Darth Vader\n",
     "Which celeb said this about COVID-19: It's a virus. I get it, I respect it\n(a) Vanessa Hudgens\n(b) Madonna\n(c) Miley Cyrus\n",
     "Which Kardashian owns a sock line\n(a) Khloe\n(b) Rob\n(c) Karen\n",
-    "Who was the first Disney Princess\n(a) Snow White\n(b) Cinderella\n(c) Aurora\n"
+    "Who was the first Disney Princess\n(a) Snow White\n(b) Cinderella\n(c) Aurora\n",
     "Who lived in America before the Europeans arrived\n(a) Romulans\n(b) American Indians\n(c) No One\n",
     "Who is Miley Cyrus godmother\n(a) Loretta Lynn\n(b) Reba McEntire\n(c) Dolly Parton\n",
     "Which Famous President was born in Kentucky\n(a) Andrew Jackon\n(b) Thomas Jefferson\n(c) Abraham Lincoln\n",
