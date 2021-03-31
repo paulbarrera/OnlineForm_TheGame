@@ -11,11 +11,11 @@ From the makers of the previous version of this parody, it is U.S. Citizenship Q
 
 ## Features
 ***
-+   Input Applicants Name.
++   Input Entrants Name.
 +   Multiple choice questions. 
 +   Responds "Great" if you get question right or "Sorry, that is incorrect" if you get it wrong. 
 +   Keeps updating your score as you answer the questions. 
-+   Returns the Applicants total score.
++   Returns the Entrants total score.
 +   Displays the days left to the next deadline for the REAL U.S Citizenship Test.  
 
 ## Steps 
@@ -26,7 +26,7 @@ From the makers of the previous version of this parody, it is U.S. Citizenship Q
 3. You can answer these multiple choice questions by typing a,b, or c. 
 4. Game will automatically end and give you a score. 
 
-## Code Louisville requirements implemented in project.
+## Code Louisville requirements implemented in project
 *** 
 1. Create a class, then create at least one object of that class and populate it with data. 
 The value of at least one object must be used somewhere in your code. 

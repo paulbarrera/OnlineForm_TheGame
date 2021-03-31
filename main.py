@@ -9,7 +9,7 @@ now = datetime.datetime.now()
 print("America's current date and time : ")
 print(now.strftime("%Y-%m-%d %H:%M:%S"))
 
-variable_name = input("Please enter your Government Name: ")
+variable_name = input("Please enter Entrant Name: ")
 print("Hi " + variable_name)
 print("Welcome to your Citizenship Test!")
 
@@ -63,7 +63,7 @@ def run_test(questions):
     print("Thank you for your interest " + variable_name + ", we'll think about it and get back to you." )
 
 run_test(questions)
-
+       
 #Calculate and display data based on an external factor 
 deadline = datetime.date(2021, 4, 19) - datetime.date.today() 
-print("Thank you for playing and the deadline for the next REAL US Citizenship test it is in : ", deadline)
+print("The deadline for the next REAL US Citizenship test is in : ", deadline)
