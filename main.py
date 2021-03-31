@@ -2,13 +2,12 @@ from Question import Question
 import random
 import datetime
 import time
-# import requests
+#import requests
 
 #Implement a regex
 now = datetime.datetime.now()
-print("Current date and time : ")
-print(now.strftime("%y-%m-%d %H:%M:%S"))
-
+print("America's current date and time : ")
+print(now.strftime("%Y-%m-%d %H:%M:%S"))
 
 variable_name = input("Please enter your Government Name: ")
 print("Hi " + variable_name)
@@ -18,7 +17,7 @@ seconds = int(input("Type 3 so test begins in 3 seconds "))
 
 time.sleep(3)
 
-print("BEGIN")
+print("BEGIN NOW")
 
 question_prompts = [
     "Who said, Luke, I am your father\n(a) Han Solo\n(b) Emperor\n(c) Darth Vader\n",
@@ -48,28 +47,23 @@ questions = [
 ]
 
 def run_test(questions):
-    # player score
+    #player score
     score = 0
-    # create a for loop
+
+    #create a for loop
     for question in questions:
         answer = input(question.prompt)
-        if answer == question.answer:
+        if answer != question.answer:
+            print("Sorry, that is incorrect")
+
+        else: 
+            print ("Great!")
             score += 1
-    print("you got ", str(score) + " out of", len(questions))
+        print("Your current score is: ", str(score) + " out of", len(questions))
+    print("Thank you for your interest " + variable_name + ", we'll think about it and get back to you." )
 
 run_test(questions)
 
-#Give the player there final score pass or fail.
-
-#         else:
-#             print("Incorrect")
-
-#Print final score
-
-#         if score > 6:
-#                 print("You Pass!: " + str(score))
-
-#         elif score < 5:
-#                 print("You fail!: " + str(score))
-
-#         print("Your Citizenship Quiz Score is: " + str(score))
+#Calculate and display data based on an external factor 
+deadline = datetime.date(2021, 4, 19) - datetime.date.today() 
+print("Thank you for playing and the deadline for the next REAL US Citizenship test it is in : ", deadline)
