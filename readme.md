@@ -31,8 +31,8 @@ From the makers of the previous version of this parody, it is U.S. Citizenship Q
 1. Create a class, then create at least one object of that class and populate it with data. 
 The value of at least one object must be used somewhere in your code. 
 2. Create a dictionary or list, populate it with several values, retrieve at least one value, and use it in your program.
-3. Implement a regex to ensure a field either a phone number or an email address is always stored and displayed in the same format. 
-4. Calculate and display data based on an external factor (ex. get the current date, and display how many days remaining until some event.
+3. Use a regex to ensure the date is displayed in the same format. 
+4. Calculate and display data based on an external factor (ex. get the current date, and display how many days remaining until some event)
 5. Implement a "master loop" console application where the user can repeatedly enter commands/perform actions, including choosing to exit the program. 
 
 ## Goals

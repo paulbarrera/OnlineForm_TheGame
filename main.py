@@ -1,10 +1,11 @@
 from Question import Question
+import sys
 import random
 import datetime
 import time
 #import requests
 
-#Implement a regex
+#Implement a regex to ensure the date is displayed in the same format
 now = datetime.datetime.now()
 print("America's current date and time : ")
 print(now.strftime("%Y-%m-%d %H:%M:%S"))
@@ -32,7 +33,7 @@ question_prompts = [
     "Yearly Americans eat 3 billion of these\n(a) Hot Dogs\n(b) Pizza Slices\n(c) Tacos\n",
 ]
 
-#Create a dictionary or list. 
+#Create a dictionary or list, populate it with several values, retrieve at least one value, and use it in your program. 
 questions = [
     Question(question_prompts[0], "c"),
     Question(question_prompts[1], "a"),
@@ -50,14 +51,18 @@ def run_test(questions):
     #player score
     score = 0
 
-    #create a for loop
+    #create a master loop including choosing to exit the program
     for question in questions:
         answer = input(question.prompt)
         if answer != question.answer:
             print("Sorry, that is incorrect")
 
+        # elif answer == 'q':
+        #     print("Thanks for trying")
+        #     exit("ending loop")
+
         else: 
-            print ("Great!")
+            print("Great!")
             score += 1
         print("Your current score is: ", str(score) + " out of", len(questions))
     print("Thank you for your interest " + variable_name + ", we'll think about it and get back to you." )
