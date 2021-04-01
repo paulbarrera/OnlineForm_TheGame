@@ -3,7 +3,6 @@ import sys
 import random
 import datetime
 import time
-
 # import requests
 
 # Implement a regex to ensure the date is displayed in the same format
@@ -50,10 +49,10 @@ questions = [
 
 
 def run_test(questions):
-    # player score
+    # Player score
     score = 0
 
-    # create a master loop including choosing to exit the program
+    # Create a master loop including choosing to exit the program
     for question in questions:
         answer = input(question.prompt)
         if answer != question.answer:
@@ -73,7 +72,6 @@ def run_test(questions):
         + variable_name
         + ", we'll think about it and get back to you."
     )
-
 
 run_test(questions)
 
