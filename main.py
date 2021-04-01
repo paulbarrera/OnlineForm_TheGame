@@ -57,9 +57,9 @@ def run_test(questions):
         if answer != question.answer:
             print("Sorry, that is incorrect")
 
-        # elif answer == 'q':
-        #     print("Thanks for trying")
-        #     exit("ending loop")
+        if answer == 'q':
+            print("Thanks for trying!")
+            exit("This exits the quiz, you may try again")
 
         else: 
             print("Great!")
