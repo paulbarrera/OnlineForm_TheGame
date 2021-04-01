@@ -23,8 +23,9 @@ From the makers of the previous version of this parody, it is U.S. Citizenship Q
 1. To Start the quiz type in, python3 main.py in terminal.
 2. Enter Your Name. 
 2. Then you will be asked to type the number 3, press enter. 
-3. You can answer these multiple choice questions by typing a,b, or c. Or you can type, q to exit the quiz.
-4. Game will automatically end and give you a score. 
+3. You can answer these multiple choice questions by typing a,b, or c. 
+4. After you start the quiz you can type, q to exit the quiz.
+5. After completeing the Quiz, it will automatically end and give you a score. 
 
 ## Code Louisville requirements implemented in project
 *** 
