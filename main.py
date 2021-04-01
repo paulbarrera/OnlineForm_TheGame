@@ -3,9 +3,10 @@ import sys
 import random
 import datetime
 import time
-#import requests
 
-#Implement a regex to ensure the date is displayed in the same format
+# import requests
+
+# Implement a regex to ensure the date is displayed in the same format
 now = datetime.datetime.now()
 print("America's current date and time : ")
 print(now.strftime("%Y-%m-%d %H:%M:%S"))
@@ -33,7 +34,7 @@ question_prompts = [
     "Yearly Americans eat 3 billion of these\n(a) Hot Dogs\n(b) Pizza Slices\n(c) Tacos\n",
 ]
 
-#Create a dictionary or list, populate it with several values, retrieve at least one value, and use it in your program. 
+# Create a dictionary or list, populate it with several values, retrieve at least one value, and use it in your program.
 questions = [
     Question(question_prompts[0], "c"),
     Question(question_prompts[1], "a"),
@@ -47,28 +48,35 @@ questions = [
     Question(question_prompts[9], "b"),
 ]
 
+
 def run_test(questions):
-    #player score
+    # player score
     score = 0
 
-    #create a master loop including choosing to exit the program
+    # create a master loop including choosing to exit the program
     for question in questions:
         answer = input(question.prompt)
         if answer != question.answer:
             print("Sorry, that is incorrect")
 
-        if answer == 'q':
-            print("Thanks for trying!")
-            exit("This exits the quiz, you may try again")
+            if answer == "q":
+                print("Thanks for trying!")
+                exit("This exits the quiz, you may try again")
 
-        else: 
+        else:
+
             print("Great!")
             score += 1
         print("Your current score is: ", str(score) + " out of", len(questions))
-    print("Thank you for your interest " + variable_name + ", we'll think about it and get back to you." )
+    print(
+        "Thank you for your interest "
+        + variable_name
+        + ", we'll think about it and get back to you."
+    )
+
 
 run_test(questions)
-       
-#Calculate and display data based on an external factor 
-deadline = datetime.date(2021, 4, 19) - datetime.date.today() 
+
+# Calculate and display data based on an external factor
+deadline = datetime.date(2021, 4, 19) - datetime.date.today()
 print("The deadline for the next REAL US Citizenship test is in : ", deadline)
