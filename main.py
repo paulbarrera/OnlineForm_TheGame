@@ -47,7 +47,6 @@ questions = [
     Question(question_prompts[9], "b"),
 ]
 
-
 def run_test(questions):
     # Player score
     score = 0
